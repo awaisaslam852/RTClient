@@ -1,0 +1,207 @@
+{
+  "project_info": {
+    "project_number": "157154009702",
+    "firebase_url": "https://localnews-968b0.firebaseio.com",
+    "project_id": "localnews-968b0",
+    "storage_bucket": "localnews-968b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157154009702:android:3c65766d2db4aabcecc3a7",
+        "android_client_info": {
+          "package_name": "com.app.reinbirddtoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157154009702-rmi32pjer39fn6ihfg6up3g0nkjr2mba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.reinbirddtoday",
+            "certificate_hash": "260784468ba5fb6e06b7b587f54f35b45658bd02"
+          }
+        },
+        {
+          "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeYPVRF9RLFfmCT8NySqfzZoK3SANUIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157154009702-s2us3hh8chkf03j5vk4fbsg8821bjcvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localnewsapp.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157154009702:android:5a3dde83e4e1432eecc3a7",
+        "android_client_info": {
+          "package_name": "com.client.reineinbered"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157154009702-9c7p54itfdpbg1qsrd4214n93d05keru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.client.reineinbered",
+            "certificate_hash": "260784468ba5fb6e06b7b587f54f35b45658bd02"
+          }
+        },
+        {
+          "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeYPVRF9RLFfmCT8NySqfzZoK3SANUIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157154009702-s2us3hh8chkf03j5vk4fbsg8821bjcvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localnewsapp.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157154009702:android:ffb794327b78e666ecc3a7",
+        "android_client_info": {
+          "package_name": "com.example.rt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeYPVRF9RLFfmCT8NySqfzZoK3SANUIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157154009702-s2us3hh8chkf03j5vk4fbsg8821bjcvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localnewsapp.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157154009702:android:de844ca928fb0d91ecc3a7",
+        "android_client_info": {
+          "package_name": "com.example.rtclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeYPVRF9RLFfmCT8NySqfzZoK3SANUIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157154009702-s2us3hh8chkf03j5vk4fbsg8821bjcvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localnewsapp.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157154009702:android:695c29061447295fecc3a7",
+        "android_client_info": {
+          "package_name": "com.localnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeYPVRF9RLFfmCT8NySqfzZoK3SANUIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157154009702-ukgg59okckcbsu48ijjuda3sq999fs4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157154009702-s2us3hh8chkf03j5vk4fbsg8821bjcvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localnewsapp.client"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

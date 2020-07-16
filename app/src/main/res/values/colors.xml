@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#61c3d9</color>
+    <color name="colorPrimaryDark">#61c3d9</color>
+    <color name="colorAccent">#61c3d9</color>
+
+    <color name="whiteColor">#fff</color>
+    <color name="greyColor">#515151</color>
+    <color name="blackColor">#222</color>
+
+
+<!--.....Welcome Screen Bottom Dots Colors......-->
+    <array name="array_dot_active">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/greyColor</item>
+        <item>@color/greyColor</item>
+        <item>@color/greyColor</item>
+
+    </array>
+    <!--..............................................-->
+
+</resources>

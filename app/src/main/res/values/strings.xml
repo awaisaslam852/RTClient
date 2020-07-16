@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RTClient</string>
+
+
+    <!--..Array States...-->
+    <string-array name="states_array">
+        <item>@string/usa</item>
+        <item>@string/ottomon</item>
+        <item>@string/russia</item>
+    </string-array>
+
+    <string name="usa">USA</string>
+    <string name="ottomon">Ottomon Empire</string>
+    <string name="russia">Russia</string>
+    <!--....................................-->
+
+    <!--..Array Country...-->
+    <string-array name="country_array">
+        <item>@string/america</item>
+        <item>@string/turkey</item>
+        <item>@string/roose</item>
+    </string-array>
+
+    <string name="america">America</string>
+    <string name="turkey">Turkey</string>
+    <string name="roose">Roose</string>
+    <!--......................................-->
+
+
+</resources>

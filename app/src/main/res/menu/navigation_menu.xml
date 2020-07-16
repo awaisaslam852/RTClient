@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/f1"
+        android:icon="@drawable/feed_icon"
+        android:title="FEED"
+        />
+    <item
+        android:id="@+id/f2"
+        android:icon="@drawable/topics_icon"
+        android:title="My Topics"
+        />
+    <item
+        android:id="@+id/f3"
+        android:icon="@drawable/saved_icon"
+        android:title="Saved"
+        />
+
+    <item
+        android:id="@+id/f4"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings"
+        />
+
+
+</menu>

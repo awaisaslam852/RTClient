@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.FiltersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/login_bg_cover"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cloudy_panel_register"
+            android:scaleType="fitXY"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_btn_black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/back_btn_filters"
+
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:visibility="gone"
+        android:background="@drawable/bg_top_register"
+        android:id="@+id/ll_for_feed_filters"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter By Location"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner1_location_filters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="All"
+                android:padding="10dp"
+                android:textColorHint="#515151"
+                android:textSize="12sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_show="true"
+                app:spinner_arrow_padding="4dp"
+                app:spinner_divider_color="#515151"
+                app:spinner_divider_show="false"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_arrow_tint="#222"
+                app:spinner_popup_animation="normal"
+                app:spinner_popup_elevation="5dp"
+                app:spinner_popup_background="@color/whiteColor"
+                android:textIsSelectable="true"
+                app:spinner_item_array="@array/states_array"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter By State"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner2_state_filters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="All"
+                android:padding="10dp"
+                android:textColorHint="#515151"
+                android:textSize="12sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_show="true"
+                app:spinner_arrow_padding="4dp"
+                app:spinner_divider_show="false"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_arrow_tint="#222"
+                app:spinner_popup_animation="normal"
+                app:spinner_popup_elevation="5dp"
+                app:spinner_popup_background="#fff"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <!--.....-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter By County"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner3_country_filters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="All"
+                android:padding="10dp"
+                android:textColorHint="#515151"
+                android:textSize="12sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_show="true"
+                app:spinner_arrow_padding="4dp"
+                app:spinner_divider_show="false"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_arrow_tint="#222"
+                app:spinner_popup_animation="normal"
+                app:spinner_popup_elevation="5dp"
+                app:spinner_popup_background="#fff"
+                app:spinner_item_array="@array/country_array"
+                />
+        </androidx.cardview.widget.CardView>
+        <!--.........-->
+
+        <Button
+            android:id="@+id/btn1_done_filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_login"
+            android:text="Done"
+            android:textColor="@color/whiteColor"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:visibility="visible"
+        android:background="@drawable/bg_top_register"
+        android:id="@+id/ll_for_mytopics_filters"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add State and Country"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15sp"
+            android:layout_gravity="start"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner4_state_filters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="New York"
+                android:padding="10dp"
+                android:textColorHint="#515151"
+                android:textSize="14sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_show="true"
+                app:spinner_arrow_padding="4dp"
+                app:spinner_divider_color="#515151"
+                app:spinner_divider_show="false"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_arrow_tint="#222"
+                app:spinner_popup_animation="normal"
+                app:spinner_popup_elevation="5dp"
+                app:spinner_popup_background="@color/whiteColor"
+                android:textIsSelectable="true"
+                app:spinner_item_array="@array/states_array"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/spinner5_country_filters"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="start"
+                android:hint="Albany"
+                android:padding="10dp"
+                android:textColorHint="#515151"
+                android:textSize="14sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_show="true"
+                app:spinner_arrow_padding="4dp"
+                app:spinner_divider_show="false"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_arrow_tint="#222"
+                app:spinner_popup_animation="normal"
+                app:spinner_popup_elevation="5dp"
+                app:spinner_popup_background="#fff"
+                app:spinner_item_array="@array/country_array"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/save_btn_filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_login"
+            android:text="Save"
+            android:textColor="@color/whiteColor"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

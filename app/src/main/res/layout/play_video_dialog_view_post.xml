@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        >
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/vv_dialog_view_post"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99222222"
+            android:padding="10sp"
+            android:layout_below="@+id/vv_dialog_view_post"
+            >
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/seekbar_dialog_view_post"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:id="@+id/progress_bar_vv_view_post"
+        />
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/play_arrow"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/play_btn_vv_view_post"
+        />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/pause_circle_icon"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/pause_btn_vv_view_post"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_btn_white"
+        android:padding="15dp"
+        android:visibility="gone"
+        android:id="@+id/close_dialog_btn_dialog_view_post"
+        />
+
+
+
+
+
+</RelativeLayout>

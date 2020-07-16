@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add State and Country"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15sp"
+        android:layout_gravity="start"
+        android:id="@+id/tvvv"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:id="@+id/spinner_country_slide3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="start"
+            android:hint="New York"
+            android:padding="10dp"
+            android:textColorHint="#515151"
+            android:textSize="15sp"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_show="true"
+            app:spinner_arrow_padding="4dp"
+            app:spinner_divider_color="#515151"
+            app:spinner_divider_show="false"
+            app:spinner_divider_size="0.4dp"
+            app:spinner_arrow_tint="#222"
+            app:spinner_popup_animation="normal"
+            app:spinner_popup_elevation="5dp"
+            app:spinner_popup_background="@color/whiteColor"
+            android:textIsSelectable="true"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        >
+        <com.skydoves.powerspinner.PowerSpinnerView
+            android:id="@+id/spinner_state_slide3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="start"
+            android:hint="Albany"
+            android:padding="10dp"
+            android:textColorHint="#515151"
+            android:textSize="15sp"
+            app:spinner_arrow_gravity="end"
+            app:spinner_arrow_show="true"
+            app:spinner_arrow_padding="4dp"
+            app:spinner_divider_show="false"
+            app:spinner_divider_size="0.4dp"
+            app:spinner_arrow_tint="#222"
+            app:spinner_popup_animation="normal"
+            app:spinner_popup_elevation="5dp"
+            app:spinner_popup_background="#fff"
+            app:spinner_item_array="@array/country_array"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next_w3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_button_login"
+        android:text="Get Started"
+        android:textColor="@color/whiteColor"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/circle_grey"
+            />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/circle_grey"
+            />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/circle_blue"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
